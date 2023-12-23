@@ -1,0 +1,186 @@
+@keyframes imgSlide1 {
+  0% {
+    transform: translateX(100%);
+  }
+  10% {
+    transform: translateX(-50%);
+  }
+  20% {
+    transform: translateX(-50%);
+  }
+  30% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slide1span {
+  0% {
+    scale: 1;
+    opacity: 0;
+  }
+  5% {
+    scale: 1.2;
+    opacity: 0;
+  }
+  10% {
+    scale: 1;
+    opacity: 1;
+  }
+  15% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  20% {
+    scale: 1;
+    opacity: 1;
+  }
+  25% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  30% {
+    scale: 1;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 0;
+  }
+}
+
+@keyframes imgSlide2 {
+  0% {
+    transform: translateX(100%);
+  }
+  30% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slide2span {
+  0% {
+    scale: 1;
+    opacity: 0;
+  }
+  30% {
+    scale: 1;
+    opacity: 0;
+  }
+  35% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  40% {
+    scale: 1;
+    opacity: 1;
+  }
+  45% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  50% {
+    scale: 1;
+    opacity: 1;
+  }
+  55% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  60% {
+    scale: 1;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 0;
+  }
+}
+
+@keyframes imgSlide3 {
+  0% {
+    transform: translateX(100%);
+  }
+  60% {
+    transform: translateX(100%);
+  }
+  70% {
+    transform: translateX(-50%);
+  }
+  80% {
+    transform: translateX(-50%);
+  }
+  90% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slide3span {
+  0% {
+    scale: 1;
+    opacity: 0;
+  }
+  60% {
+    scale: 1;
+    opacity: 0;
+  }
+  65% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  70% {
+    scale: 1;
+    opacity: 1;
+  }
+  75% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  80% {
+    scale: 1;
+    opacity: 1;
+  }
+  85% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  90% {
+    scale: 1;
+    opacity: 1;
+  }
+  95% {
+    scale: 1.2;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 0;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateY(0); /* Başlangıç ve bitiş konumu */
+  }
+  50% {
+    transform: translateY(50px); /* Sallanma yüksekliği ve yönü */
+  }
+}
